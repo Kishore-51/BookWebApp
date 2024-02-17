@@ -1,0 +1,7 @@
+FOR BOOKDATA TABLE 
+CREATE TABLE bookdata (
+    id NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    bookname VARCHAR2(30),
+    bookedition VARCHAR2(30),
+    bookprice FLOAT(126)
+);
